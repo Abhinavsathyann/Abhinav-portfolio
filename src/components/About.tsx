@@ -5,17 +5,21 @@ import { Code2, Palette, Terminal, Video } from 'lucide-react';
 
 const skills = [
   { name: 'HTML/CSS', icon: <Code2 className="w-6 h-6" /> },
-  { name: 'JavaScript', icon: <Terminal className="w-6 h-6" /> },
+  { name: 'JavaScript', icon: <Code2 className="w-6 h-6" /> },
   { name: 'React', icon: <Code2 className="w-6 h-6" /> },
-  { name: 'Node.js', icon: <Terminal className="w-6 h-6" /> },
-  { name: 'TailwindCSS', icon: <Palette className="w-6 h-6" /> },
-  { name: 'Bootarap', icon: <Video className="w-6 h-6" /> },
+  { name: 'Node.js', icon: <Code2 className="w-6 h-6" /> },
+  { name: 'TailwindCSS', icon: <Code2 className="w-6 h-6" /> },
+  { name: 'Bootarap', icon: <Code2 className="w-6 h-6" /> },
   { name: 'Python', icon: <Code2 className="w-6 h-6" /> },
-  { name: 'Java', icon: <Terminal className="w-6 h-6" /> },
+  { name: 'Java', icon: <Code2 className="w-6 h-6" /> },
   { name: 'Mongo DB', icon: <Code2 className="w-6 h-6" /> },
-  { name: 'SQL', icon: <Terminal className="w-6 h-6" /> },
-  { name: 'PHP', icon: <Palette className="w-6 h-6" /> },
-  { name: 'EMBEDED SYSYTEM', icon: <Video className="w-6 h-6" /> },
+  { name: 'SQL', icon: <Code2 className="w-6 h-6" /> },
+  { name: 'PHP', icon: <Code2 className="w-6 h-6" /> },
+  { name: 'EMBEDED SYSYTEM', icon: <Code2 className="w-6 h-6" /> },
+  // { name: 'DIGITAL MARKETING'},
+  // { name: 'DIGITAL MARKETING'},
+  // { name: 'DIGITAL MARKETING'},
+
 ];
 
 const About = () => {
