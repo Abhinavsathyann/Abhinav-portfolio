@@ -20,13 +20,13 @@ const Contact = () => {
     {
       name: 'GitHub',
       icon: <Github className="w-6 h-6" />,
-      url: 'https://github.com/yourusername',
+      url: 'https://github.com/Abhinavsathyann',
       color: 'hover:text-gray-400',
     },
     {
       name: 'LinkedIn',
       icon: <Linkedin className="w-6 h-6" />,
-      url: 'https://linkedin.com/in/yourusername',
+      url: 'https://www.linkedin.com/in/abhinavksathyan/',
       color: 'hover:text-blue-400',
     },
     {
